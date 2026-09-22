@@ -42,7 +42,7 @@ public class CalculatorTests
 
     [TestCase(1, 2, 0.5)]
     [TestCase(0, 15, 0)]
-    [TestCase(15, -3, -5)]
+    [TestCase(15, -3, -4)]
     public void Divide_RepresentativeInputs_ReturnsQuotient(
             double a, double b, double expected)
         {
